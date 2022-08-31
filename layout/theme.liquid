@@ -15,6 +15,8 @@
   <!-- Basic page needs ================================================== -->
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="google-site-verification" content="GTNJsU2djI7vb2tAaZ36wsk_yv7KqufKbHfdgKdzWT0" />
+
 
   {% if settings.favicon_enable %}
   <link rel="shortcut icon" href="{{ 'favicon.png' | asset_url }}" type="image/png" />
@@ -42,13 +44,13 @@
     {{ 'owl.carousel.min.css' | asset_url | stylesheet_tag }}
   {% endif %}
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-  {{ 'timber.scss.css' | asset_url | stylesheet_tag }}
-  {{ 'custom_new.scss' | asset_url | stylesheet_tag }}
+  {{ 'timber.css' | asset_url | stylesheet_tag }}
+  {{ 'custom_new.css' | asset_url | stylesheet_tag }}
   {{ 'font.css' | asset_url | stylesheet_tag }}
   {{ 'jquery.api.js' | asset_url  | script_tag }}
   {% if settings.ajax_cart_enable %}
   <!-- Ajaxify Cart Plugin ================================================== -->
-  {{ 'ajaxify.scss.css' | asset_url | stylesheet_tag }}
+  {{ 'ajaxify.css.css' | asset_url | stylesheet_tag }}
   {% endif %}
 
 
